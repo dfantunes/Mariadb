@@ -82,15 +82,13 @@ MariaDB [TEST]> DROP TABLE IF EXISTS `Cars`;
 Query OK, 0 rows affected, 1 warning (0.00 sec)
 
 MariaDB [TEST]>     CREATE TABLE `Cars` (
-        `Make` VARCHAR(50) NULL DEFAULT NULL,
-         `Model` VARCHAR(255) NULL DEFAULT NULL,
-          `Type` VARCHAR(50) NULL DEFAULT NULL,
-         `Origin` VARCHAR(50) NULL DEFAULT NULL,
-          `DriveTrain` VARCHAR(50) NULL DEFAULT NULL,
-         `Lenght` INT NULL
-          )
-         COLLATE='latin1_swedish_ci'
-        ;
+        				  `Make` VARCHAR(50) NULL DEFAULT NULL,
+        				  `Model` VARCHAR(255) NULL DEFAULT NULL,
+         				  `Type` VARCHAR(50) NULL DEFAULT NULL,
+         				  `Origin` VARCHAR(50) NULL DEFAULT NULL,
+          				  `DriveTrain` VARCHAR(50) NULL DEFAULT NULL,
+        				  `Lenght` INT NULL
+          				) COLLATE='latin1_swedish_ci' ;
 Query OK, 0 rows affected (0.06 sec)
 ```
 > **Note:**  the Collate type can be changed if necessary. For more information check: [Collation Settings](https://mariadb.com/kb/en/setting-character-sets-and-collations/) 
