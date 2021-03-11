@@ -43,7 +43,7 @@ MariaDB [(none)]> SHOW DATABASES;
 ```sql
 CREATE DATABASE TEST;
 ```
-> **Note:**  We can put database name between **``** or not.
+> **Note:**  We can set put database name between **``** or not.
 ```sql
 Query OK, 1 row affected (0.00 sec)
 ```
@@ -93,7 +93,7 @@ MariaDB [TEST]>     CREATE TABLE `Cars` (
         ;
 Query OK, 0 rows affected (0.06 sec)
 ```
-> **Note:**  the Collate type can be changed for a necessity. For more information check: [Collation Settings](https://mariadb.com/kb/en/setting-character-sets-and-collations/) 
+> **Note:**  the Collate type can be changed if necessary. For more information check: [Collation Settings](https://mariadb.com/kb/en/setting-character-sets-and-collations/) 
 
 
 # Verifying that the table has been created
